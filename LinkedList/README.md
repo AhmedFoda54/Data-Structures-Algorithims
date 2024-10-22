@@ -54,3 +54,18 @@ To compile the project, use a C++ compiler such as `g++`:
 
 ```bash
 g++ -o LinkedList main.cpp
+```
+
+## Usage
+
+Once compiled, run the program, and it will prompt for integer inputs to demonstrate the linked list operations. You can modify the main.cpp to test specific functions or add further test cases as needed.
+
+Example of running the compiled program:
+
+```bash
+./LinkedList
+```
+
+## License
+
+This project is provided as-is with no specific license. Feel free to modify and use it as needed.
