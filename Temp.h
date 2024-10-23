@@ -1,0 +1,16 @@
+ArrayStack<Car*> S;
+Car car1(11,150);
+Car car2(12,350);
+Car car3(111,200);
+Car* ptr1 = car1;
+Car* ptr2 = car2;
+Car* ptr3 = car3;
+S.push(ptr1);
+S.push(ptr2);
+S.push(ptr3);
+cout << "Car 1" << car1.GetCar() << endl;
+S.pop(ptr3);
+cout<< "Car 2" << car2.GetCar() << endl;
+S.pop(ptr2);
+cout<<"Car 3"<< car3.GetCar() << endl;
+S.pop(ptr1);
